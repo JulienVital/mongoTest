@@ -1,0 +1,12 @@
+{
+    "name": "root/html",
+    "require": {
+        "ext-mongodb": "^1.6",
+        "mongodb/mongodb": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    }
+}
